@@ -1,0 +1,585 @@
+
+
+body{
+    background: url('https://i.ibb.co/fvDfF8t/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: 'Poppins', sans-serif;
+    background-position: top center;
+}
+
+
+
+
+/* header style
+===================================*/
+
+.header{
+  position:relative;
+}
+
+.header-inner{
+  position:absolute;
+  top:0px;
+  width:100%;
+  z-index:99;
+  background-color:transparent;
+}
+
+.nav-item .nav-link{
+    display: block;
+    line-height: 36px;
+	text-transform:capitalize;
+    font-size: 16px;
+	font-weight:400;
+    color: white;
+    transition: 0.15s;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 800;
+    position: relative;
+    font-size:29px;
+}
+
+.navbar-brand:hover{
+ color: #fff;
+}
+
+.form-inline a:first-child{
+  display: block;
+    padding: 9px 18px;
+    font-family: 'DM Sans', sans-serbif;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    line-height: 17px;
+    border-radius: 50px;
+    background: #24f281;
+    cursor: pointer;
+    color: black;
+}
+
+
+.search-btn {
+ width:35px;
+ height:35px;
+ line-height:35px;
+ margin:0px 0px 0px 15px;
+ border-radius:50%;
+ cursor:pointer;
+ text-align:center;
+ background-color:#6c757de6;
+}
+
+.search-btn i{
+      color: #ffffff;
+	  font-size:14px;
+}
+
+/* header style
+===================================*/
+
+
+
+
+
+
+
+
+/* banner css design
+===================================*/
+
+
+.section-container-items{
+  padding:100px 0px 0px 0px;
+}
+
+
+span, i, button, a{
+    text-decoration: none;
+    outline: none;
+}
+
+.section a{
+    display: inline-block;
+}
+
+.section h1{
+    font-size: 68px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #f4f4f4;
+    letter-spacing: -0.21px;
+    line-height: 90px;
+    margin: 0; padding: 0;
+}
+
+.section h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.30px;
+	padding: 0;
+    margin-top: 8px;
+    margin-left: 2px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.section button{
+    margin-top: 30px;
+    display: block;
+    padding: 15px 24px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    line-height: 17px;
+    border-radius: 50px;
+    background: #24f281;
+    border: none;
+    cursor: pointer;
+    color: #f4f4f4;
+    transition: all 250ms ease-in-out;
+}
+
+
+.section button i{
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.section button span{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.20px;
+    margin-left: 3px;
+}
+
+.look {
+    color: #05cc47;
+    font-size: 3.7em;
+    transform: rotate(90deg);
+}
+
+
+.alta-title{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.7;
+    z-index: 1;
+    position: absolute;
+    right: 0; 
+	transform: rotate(90deg) translateY(-60px);
+}
+
+.alta img {
+    width:100%;
+    height: auto;
+}
+
+
+
+/* banner  css design
+===================================*/
+
+
+
+
+
+
+/* footer css design
+===================================*/
+
+
+
+/* footer css design
+===================================*/
+
+
+
+
+
+
+
+
+/* search box model css design
+===================================*/
+.search-model {
+    position: fixed;
+	display:none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+	animation:fadeIn 0.7s ease-in-out 1;
+    top: 0;
+    background: #000;
+    z-index: 99999;
+}
+
+
+@keyframes fadeIn{
+0%{
+  opacity:0;
+}
+100%{
+  opacity:1;
+}
+}
+
+
+.search-close-switch {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #24f281;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height:50px;
+    top: 30px;
+    cursor: pointer;
+    transform: rotate(45deg);
+	transform-origin:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-search{
+  display:block;
+}
+
+.search-model-form {
+    padding: 0 15px;
+}
+
+.search-model-form input {
+    width: 500px;
+    font-size: 40px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: none;
+    color: #999;
+}
+
+
+.search-model-form input:focus{
+  outline:0px!important;
+}
+
+button, input {
+    overflow: visible;
+}
+
+
+
+
+/* search box model css design
+===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* small screen device responsive 
+===================================*/
+
+@media  only screen and (min-width:1200px){
+.nav-item > .nav-link{
+   padding:5px 20px!important;
+   display:block;
+}
+}
+
+@media  only screen and (max-width:992px){
+.header-inner{
+  background-color:white;
+  width:100%!important;
+}
+ .nav-item .nav-link {
+  color:black;
+}
+
+.section h1{
+    font-size:40px!important;
+    line-height:55px!important;
+}
+
+.navbar-brand{
+    color: #000!important;
+	font-weight:600;
+}
+
+.content-banner .first-title {
+    font-size: 30px;
+}
+}
+@media  only screen and (max-width:576px){
+.search-model-form input {
+    width: 257px!important;
+    font-size: 20px!important;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: none;
+    color: #999;
+}
+}
+
+.about-section {
+    padding: 80px 0;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    color: #24f281;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .services-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .service-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-item i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #24f281 /* Change the color as desired */
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    color: #6c757d; /* Change the color as desired */
+  }
+
+  .portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.project {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.projects {
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes shuffle {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+
+ 
+
+
+
+.video-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 315px; /* Adjust height as needed */
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.contact-form {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.map {
+  flex: 1;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.address {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form form {
+  max-width: 400px; /* Adjust max-width as needed */
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; /* Adjust margin as needed */
+  color: white;
+}
+
+.contact-form textarea {
+  height: 150px; /* Adjust height as needed */
+}
+
+.contact-form button {
+  background-color: #00ffb3; /* Adjust color as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: #00ffb3; /* Adjust color as needed */
+}
+
+@media screen and (max-width: 915px) {
+  .contact-form {
+    flex: 1 1 50%; /* Take 50% width on larger screens */
+    margin-right: 20px;
+  }
+
+  
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+
+.picture-frame {
+  position: relative;
+  display: inline-block;
+}
+
+.picture-frame img {
+  display: block;
+  width: 300px; /* Adjust as needed */
+  height: auto;
+  border: 4px solid #138b27; /* Brown color for the frame */
+  border-radius: 10px;
+}
+
+.frame {
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid white; /* Tan color for the inner part of the frame */
+  border-radius: 6px;
+  pointer-events: none; /* Prevents the frame from interfering with mouse events */
+}
